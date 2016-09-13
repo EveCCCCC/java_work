@@ -1,0 +1,18 @@
+// Polymorphism Example 2 
+// Slide 61 - 66 
+
+// Class #1
+public class Ham {
+   public void a() {
+      System.out.print("Ham a    ");
+      b();
+   }
+   
+   public void b() {
+      System.out.print("Ham b    ");
+   }
+   
+   public String toString() {
+      return "Ham";
+   }
+}
